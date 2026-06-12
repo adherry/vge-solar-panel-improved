@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>adherry.gravship.solar</packageId>
-	<name>VGE Solar Panneling rebalance</name>
+	<name>VGE Solar panelling rebalance</name>
 	<author>adherry</author>
 	<!-- <modIconPath>path/to/icon</modIconPath> -->
 	<supportedVersions>
@@ -41,17 +41,17 @@
 	</loadAfter>
 
 	<description>
-Rebalances the Solar Pannelling from VGE to be a more affordable early-game option.
+Rebalances the Solar panelling from VGE to be a more affordable early-game option.
 Changes:
 HP: 50 -> 200 (mostly to prevent them from dying immediately to a stiff breeze)
 Cost: 10 Gravlite + 1 Component -> 2 Gravlite + 1 Component
 Subscaffold moved from Standard to Basic Gravtech. The goal is for solar panels to have an early-game advantage over Astrofuel Generators (they do not cut into the tile budget).
 
 Background:
-In VGE as is, Solar Pannelling produces 200 W/tile when the sun shines. This is an almost 100% increase over vanilla solar panels (106 W/tile), but I found myself never building them. The problem is that there is better energy/tile and cost/W available with Astrofuel Generators. Unless you play on a planet free of vegetation, it is almost always more efficient to build those (400 W/tile) as you already produce astrofuel, and each 1,600 W generator needs a 70 chemfuel to 35 astrofuel craft every 11.6 days. It also only costs 100 steel and 3 components to build.
+In VGE as is, Solar panelling produces 200 W/tile when the sun shines. This is an almost 100% increase over vanilla solar panels (106 W/tile), but I found myself never building them. The problem is that there is better energy/tile and cost/W available with Astrofuel Generators. Unless you play on a planet free of vegetation, it is almost always more efficient to build those (400 W/tile) as you already produce astrofuel, and each 1,600 W generator needs a 70 chemfuel to 35 astrofuel craft every 11.6 days. It also only costs 100 steel and 3 components to build.
 
 The convenience of "never refuel" does not compare to the high cost of Solar Pannelling at 10 Gravlite per tile and the inability to produce Gravlite tiles until the final research (and even then it's 2.5 crafts of 4× Gravlite). Additionally, until you have Standard Gravtech you do not have the subscaffolds available and you lose valuable ship area to panels.
-If you lose some pannelling it is even more painful, as they die very easily and you lose 5 Gravlite panels per tile. With a new cost of 2 per tile, you will in most regards be limited by your component supply and engine range instead of Gravlite tiles. While it's still only 200 W/tile during sun, the advantage of being able to build them on subscaffold is always available. This allows early ships with a solar "dish" around them. The extra HP also helps keep them alive longer, meaning you spend less time replacing them.
+If you lose some panelling it is even more painful, as they die very easily and you lose 5 Gravlite panels per tile. With a new cost of 2 per tile, you will in most regards be limited by your component supply and engine range instead of Gravlite tiles. While it's still only 200 W/tile during sun, the advantage of being able to build them on subscaffold is always available. This allows early ships with a solar "dish" around them. The extra HP also helps keep them alive longer, meaning you spend less time replacing them.
 
 I am aware the text on the image is not 100% fitting, but that image was too silly not to use.
 	</description>
