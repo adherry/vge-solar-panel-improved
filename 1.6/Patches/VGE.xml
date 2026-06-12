@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Change Cost of Grav solar panel -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_SolarPanelling"]/costList/GravlitePanel</xpath>
+    <value>
+      <GravlitePanel>2</GravlitePanel>
+    </value>
+  </Operation>
+
+  <!-- Make the panneling die slower -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VGE_SolarPanelling"]/statBases/MaxHitPoints</xpath>
+    <value>
+      <MaxHitPoints>200</MaxHitPoints>
+    </value>
+  </Operation>
+
+  <!-- Move subscaffold to Basic Gravtech to buff early panels -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/TerrainDef[defName="VGE_GravshipSubscaffold"]/researchPrerequisites/li[text()="StandardGravtech"]</xpath>
+    <value>
+      <li>BasicGravtech</li>
+    </value>
+  </Operation>
+
+</Patch>
