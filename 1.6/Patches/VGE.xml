@@ -13,12 +13,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VGE_SolarPanelling"]/statBases/MaxHitPoints</xpath>
     <value>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>150</MaxHitPoints>
     </value>
   </Operation>
 
   <!-- Move subscaffold to Basic Gravtech to buff early panels -->
   <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/TerrainDef[defName="VGE_GravshipSubscaffold"]/researchPrerequisites/li[text()="StandardGravtech"]</xpath>
     <value>
       <li>BasicGravtech</li>
