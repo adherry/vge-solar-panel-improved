@@ -10,14 +10,6 @@
 
 	<modDependencies>
 		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<downloadUrl>
-				https://github.com/pardeike/HarmonyRimWorld/releases/latest
-			</downloadUrl>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-		</li>
-		<li>
 			<packageId>vanillaexpanded.gravship</packageId>
 			<displayName>Vanilla Gravship Expanded - Chapter 1</displayName>
 			<downloadUrl>
@@ -36,7 +28,6 @@
 	</loadBefore>
 
 	<loadAfter>
-		<li>brrainz.harmony</li>
 		<li>vanillaexpanded.gravship</li>
 		<li>btd.remix.gravshipblueprints</li>
 	</loadAfter>
