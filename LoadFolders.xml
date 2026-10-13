@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+	</v1.6>
+	<!-- 1.7 reuses the 1.6 patches until VGE ships 1.7 changes that need a separate folder -->
+	<v1.7>
+		<li>/</li>
+		<li>1.6</li>
+	</v1.7>
+</loadFolders>
